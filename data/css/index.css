@@ -1,0 +1,269 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#lang_de {
+	position: absolute;
+	left: 5px;
+	top: 311px;
+}
+
+#punkt1 {
+	position: absolute;
+	left: 696px;
+	top: 457px;
+	min-height: 30px;
+	min-width: 30px;
+	background: url(../bilder/punkt.gif) repeat;
+	opacity: 0.32;
+}
+
+#punkt2 {
+	position: absolute;
+	left: 1092px;
+	top: 416px;
+	min-height: 30px;
+	min-width: 30px;
+	background: url(../bilder/punkt.gif) repeat;
+	opacity: 0.32;
+}
+
+#lang_fr {
+	position: absolute;
+	left: 5px;
+	top: 373px;
+}
+#lang_it {
+	position: absolute;
+	left: 5px;
+	top: 435px;
+}
+#lang_en {
+	position: absolute;
+	left: 5px;
+	top: 497px;
+}
+
+#sub_de {
+	position: absolute;
+	left: 844px;
+	top: 614px;
+}
+
+#sub_fr {
+	position: absolute;
+	left: 904px;
+	top: 614px;
+}
+#sub_it {
+	position: absolute;
+	left: 844px;
+	top: 674px;
+}
+#sub_en {
+	position: absolute;
+	top: 674px;
+	left: 904px;
+}
+#lang_we {
+	position: absolute;
+	left: 463px;
+	top: 642px;
+}
+
+
+
+#pfeil_links {
+	position: absolute;
+	left: 28px;
+	top: 359px;
+}
+#pfeil_rechts {
+	position: absolute;
+	left: 946px;
+	top: 359px;
+}
+#nav_1_15 {
+	position: absolute;
+	left: 5px;
+	top: 101px;
+}
+
+#nav_2_15 {
+	position: absolute;
+	left: 396px;
+	top: 48px;
+}
+
+#nav_3_15 {
+	position: absolute;
+	left: 607px;
+	top: 48px;
+}
+
+#nav_4_15 {
+	position: absolute;
+	left: 723px;
+	top: 68px;
+}
+
+#nav_5_15 {
+	position: absolute;
+	left: 186px;
+	top: 269px;
+}
+
+#nav_6_15 {
+	position: absolute;
+	left: 396px;
+	top: 269px;
+}
+
+#nav_7_15 {
+	position: absolute;
+	left: 607px;
+	top: 269px;
+}
+
+#nav_8_15 {
+	position: absolute;
+	left: 723px;
+	top: 279px;
+}
+
+#nav_9_15 {
+	position: absolute;
+	left: 186px;
+	top: 489px;
+}
+
+#nav_10_15 {
+	position: absolute;
+	left: 396px;
+	top: 489px;
+}
+
+#nav_11_15 {
+	position: absolute;
+	left: 607px;
+	top: 489px;
+}
+
+#nav_12_15 {
+	position: absolute;
+	left: 723px;
+	top: 490px;
+}
+
+#nav_13_15 {
+	position: absolute;
+	left: 418px;
+	top: 490px;
+}
+
+#nav_14_15 {
+	position: absolute;
+	left: 607px;
+	top: 490px;
+}
+
+#nav_15_15 {
+	position: absolute;
+	left: 723px;
+	top: 490px;
+}
+
+#links {
+	position: absolute;
+	left: 220px;
+	top: 220px;
+}
+
+#rechts {
+	position: absolute;
+	top: 328px;
+	left: 720px;
+	display: none;
+}
+
+#weiter {
+	position: absolute;
+	left: 1761px;
+	top: 922px;
+}
+#starte {
+	position: absolute;
+	top: 612px;
+	left: 78px;
+	min-width: 100px;
+	min-height: 100px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border-radius: 90px;
+	color: #000000;
+	
+}
+
+#bg {
+	position: absolute;
+	top: 189px;
+	left: 5px;
+	min-width: 161px;
+	min-height: 161px;
+	background: url(../bilder/bg.png) no-repeat;
+	z-index: 0;
+}
+
+#home {
+	position: absolute;
+	top: 688px;
+	left: 900px;
+}
+
+#back {
+	position: absolute;
+	top: 498px;
+	left: 5px;
+}
+
+#links, #rechts {
+	min-width: 600px;
+	min-height: 450px;
+}
+
+#nav_1_15, #nav_2_15, #nav_3_15, #nav_4_15, #nav_5_15, #nav_6_15, #nav_7_15, #nav_8_15, #nav_9_15, #nav_10_15, #nav_11_15, #nav_12_15, #nav_13_15, #nav_14_15, #nav_15_15 {
+	min-width: 310px;
+	min-height: 55px;
+}
+
+#sub_de, #sub_fr, #sub_it, #sub_en {
+	min-width: 50px;
+	min-height: 50px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border-radius: 90px;
+	color: #000000;
+}
+#nav_back, #pfeil_links, #pfeil_rechts, #weiter, #home, #back {
+	min-width: 310px;
+	min-height: 55px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	color: #000000;
+}
+#lang_de, #lang_fr, #lang_it, #lang_en, #lang_we {
+	min-width: 310px;
+	min-height: 55px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	color: #000000;
+}
+#lang_de, #lang_fr, #lang_it, #lang_en, #lang_we, #nav_back, #pfeil_links, #pfeil_rechts, #weiter, #home, #back , #links, #rechts, #nav_1_15, #nav_2_15, #nav_3_15, #nav_4_15, #nav_5_15, #nav_6_15, #nav_7_15, #nav_8_15, #nav_9_15, #nav_10_15, #nav_11_15, #nav_12_15, #nav_13_15, #nav_14_15, #nav_15_15, #sub_de, #sub_fr, #sub_it, #sub_en, #starte, #bg {
+	border: 1px solid red;
+}

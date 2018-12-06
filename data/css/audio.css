@@ -1,0 +1,58 @@
+/* Absolute Center */
+.abs-center{
+	margin: auto;
+	position: fixed;
+	top:0; right:0; bottom:0; left:0;
+}
+/*Container for audio player*/
+#audioplayer{
+	width: 310px;
+	height: 41px;
+	margin-left: 0px;
+	z-index: 4;
+	margin-top: 0;
+	display: inline;
+	position: absolute;
+	top: 279px;
+	background-color: white;
+	left: 5px;
+}
+/* Play/Pause Button */
+#pButton{
+	height:65px;
+	width: 66px;
+	border: none;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float:left;
+	outline:none;
+	opacity: 1;
+	margin-right: 20px;
+	margin-top: -90px;
+	margin-left: 14px;
+}
+/*Classes for play/pause button background*/
+.play{background: url('../bilder/play.png') ;}
+.pause{background: url('../bilder/pause.png') ;}
+
+#timeline{
+	width: 290px;
+	height: 25px;
+	background: silver;
+	margin-top: 15px;
+	margin-left: 10px;
+	float: left;
+	border-radius: 15px;
+}
+/*Grabable Playhead*/
+#playhead{
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	border-radius: 0px;
+	margin-top: 0px;
+	background: black;
+	margin-left: 0px;
+	border-radius: 15px;
+}

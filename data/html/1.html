@@ -1,0 +1,22 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=no" />
+<LINK REL=StyleSheet HREF="../css/index.css" TYPE="text/css">
+<script language="JavaScript">
+  if (document.layers) {
+          window.captureEvents(Event.MOUSEMOVE);
+        window.onmousemove = warte;
+  }
+  function lauf() {
+laeuft=setTimeout("self.location.href='../index.html'",60000)  }
+  function warte(e) { clearTimeout(laeuft); lauf(); }    lauf();
+</script>
+</head>  
+<body onMousemove="warte(0)" bgcolor="black">
+<img src="../bilder/1.png" alt="02" width="320" height="568" usemap="#hindergrund" />
+<a href="10.html" id="nav_1_15"></a>
+<a href="../index.html" id="back"></a>
+</html>

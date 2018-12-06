@@ -1,0 +1,41 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="../css/reset.css">
+<link rel="stylesheet" type="text/css" href="../css/audio.css">
+<LINK REL=StyleSheet HREF="../css/index.css" TYPE="text/css">
+<script language="JavaScript">
+  if (document.layers) {
+          window.captureEvents(Event.MOUSEMOVE);
+        window.onmousemove = warte;
+  }
+  function lauf() {
+laeuft=setTimeout("self.location.href='../index.html'",2760000)  }
+  function warte(e) { clearTimeout(laeuft); lauf(); }    lauf();
+</script>
+</head>  
+<body onMousemove="warte(0)" bgcolor="black">
+<img src="../bilder/11.png" alt="02" width="1024" height="768" usemap="#hindergrund" />
+<!--HTML5 audio-->
+	<audio id="music" preload="true">
+		<source src="../audio/1.m4a">
+	</audio>
+
+	<div id="wrapper">
+		<!--Audio Player Interface-->
+		<div id="audioplayer">
+			<button id="pButton" class="play"></button>
+			<div id="timeline">
+				<div id="playhead"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="../js/html5audio.js" type="text/javascript"></script>
+	<a href="1.html" id="home"></a>
+<div id="bg"></>
+</body>
+</html>
